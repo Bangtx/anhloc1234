@@ -1,0 +1,1 @@
+web: gunicorn webanhloc.wsgi --log-file -
