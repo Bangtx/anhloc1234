@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'webanhloc.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd8gopajqvih4dt',
+        'USER': 'hohklmbzdvoimz',
+        'PASSWORD': 'a250d603d8d7ff52b8aa46bafdc9ab6e12df13e14cc06e326c597e471ccd1243',
+        'HOST': 'ec2-44-194-145-230.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
