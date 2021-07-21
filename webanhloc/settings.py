@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-r!pci2tyeejshv&eqaxtto**purg_53a8ttb22=st3y9vj*=8q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['evening-castle-77171.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mywebsite.apps.MywebsiteConfig'
+    'mywebsite',
 ]
 
 MIDDLEWARE = [
